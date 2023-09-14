@@ -5,10 +5,10 @@ This is an example app using [Bun](https://bun.sh) and Azure OpenAI to stream ch
 ## Installation
 
 ```bash
-git clone https://github.com/mpodwysocki/bun-openai.git
+git clone https://github.com/mpodwysocki/openai-bun.git
 
-cd bun-opeai
-npm install
+cd openai-bun
+bun install
 ```
 
 You will need to create a `.env` file with the credentials such as what is in the `sample.env` file for the Express port as well as the Azure OpenAI Credentials.
@@ -20,7 +20,7 @@ AZURE_OPENAI_ENDPOINT=
 AZURE_OPENAI_DEPLOYMENT=
 ```
 
-To run the sampl, use the following:
+To run the sample, use the following:
 
 ```bash
 bun run src/index.mts
